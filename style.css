@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+body{
+	margin: 0;
+}
+
+.wrapper{
+	width: 1550px;
+	background-color: #eee;
+	margin: 0 auto 0 auto ;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 10px 0px 8px 40px;
+	height: 45px;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Shrikhand';
+	font-weight: 400;
+	font-size: 35px;
+	float: left; 
+	margin-top: 0px;
+	margin-right: 8px;
+}
+
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 14px;
+
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+#nav{
+	font-family: 'Shrikhand', cursive;
+}
+
+.homered {
+	background-color: red;
+	padding: 30px 10px 14.5px 10px;
+}
+
+.divider {
+	background-color: red;
+	height: 9px;
+}
+
+.homeblack:hover{
+	background-color: blue;
+    padding: 30px 10px 14.5px 10px;
+}
+
+.content{
+	background-color: black;
+	width: 1550px;
+	height: 1000px;
+}
+
+.image {
+	background-image: url(image/img1.jpg);
+	width: 1450px;
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 100px 0px 0px;
+	float: left;
+}
+
+.sidebar {
+	width: 150px;
+	float: left;
+	background-color: lightblue;
+	height: 1000px;
+	padding: 0px 0px 0px 40px;
+}
+
+.footer {
+	background-color: black;
+	height: 50px;
+	font-family: 'Shrikhand';
+	font-weight: 100;
+	font-color: white;
+	font-size: 15px;
+}
+
+.content_a {
+	background-color: green;
+	width: 1550px;
+	height: 1000px;
+}
